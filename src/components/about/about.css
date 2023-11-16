@@ -30,7 +30,7 @@
 .about__me-image:hover{
     transform: rotate(0);
 }
-
+        
 .about__cards{
 
     display: grid;
@@ -45,4 +45,50 @@
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
+    transition: var(--transition);
 }
+
+.about__card:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.about__icon{
+    color: var(--color-primary);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.about__card h5{
+    font-size: .95rem;
+}
+
+.about__card small{
+    font-size: var(--color-light);
+}
+
+.about__content p {
+    margin: 2rem 0 2.6rem;
+    color: var(--color-light);  
+}
+
+@media screen and (max-width: 1024px) {
+    .about__container{
+        grid-template-columns: 1fr;
+        gap:0;
+
+    }
+    
+    .about__me{
+        width: 50%;
+        margin: 2rem auto 4rem;
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header{
+        height: 100vh;
+    }
+      }
