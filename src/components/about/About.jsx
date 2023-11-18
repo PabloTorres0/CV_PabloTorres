@@ -5,7 +5,10 @@ import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
 
-const About = () => {
+const About = (props) => {
+  
+    const idiom = props.idiom  
+
   return (
    <section id='about'>
     <h5>Get to Know</h5>
@@ -22,20 +25,27 @@ const About = () => {
           <div className="about__cards">
             <article className="about__card">
                 <FaAward className='about__icon'/>
-              <h5>Experience</h5>
-              <small>2 Years working esperience</small>
+              <h5>{idiom?'Experience':'Experiencia'}</h5>
+              <small>{idiom?'2 Years working esperience':'2 Años de experiencia'}</small>
             </article>
 
             <article className="about__card">
-                <FiUsers className='about__icon'/>
-              <h5>Clients</h5>
-              <small>+ 200 Worldwide</small>
+                <FaAward className='about__icon'/>
+              <h5>{idiom?'Clients':'Clientes'}</h5>
+              <small>{idiom?'+ 200 Worldwide':'+ 200 trasnacionales'}</small>
             </article>
 
             <article className="about__card">
-                <VscFolderLibrary className='about__icon'/>
-              <h5>Proyects</h5>
-              <small>+ 80 completed proyects</small>
+                <FaAward className='about__icon'/>
+              <h5>{idiom?'Proyects':'Proyectos'}</h5>
+              <small>{idiom?'80 completed poryects':'80 proyectos completados'}</small>
+            </article>
+
+
+            <article className="about__card">
+                <FaAward className='about__icon'/>
+              <h5>{idiom?'Proyects':'Proyectos'}</h5>
+              <small>{idiom?'80 completed poryects':'80 proyectos completados'}</small>
             </article>
           </div>
           
