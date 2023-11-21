@@ -6,6 +6,7 @@ import Experience from './components/experience/Experience'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 import Idiom from './components/idiom/Idiom'
+
 const App = () => {
   
   const[idiom, setIdiom] = React.useState(null)
@@ -16,14 +17,17 @@ const App = () => {
 
   return (
     <>
+    <div>
       <Idiom idiomSelect={idiomSelect} idiom={idiom} />
       <Header idiom={idiom}/>
+    
       <Nav idiom={idiom}/>
       <About idiom={idiom}/>
       <Experience idiom={idiom}/>
+      
       <Contact idiom={idiom}/>
       <Footer idiom={idiom}/>
-      
+    </div>  
     </>
   )
 }

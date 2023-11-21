@@ -8,7 +8,7 @@
 
 .experience__container >div{
     background: var(--color-bg-variant);
-    padding: 2.5rem 5rem;
+    padding: 2.5rem .5rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
@@ -43,7 +43,7 @@
     color: var(--color-primary);
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1224px) {
     .experience__container{
         grid-template-columns: 1fr;
     }
@@ -62,7 +62,11 @@
 @media screen and (max-width: 600px) {
 
     .experience__container{
-        gap:1rem;
+        gap:.1rem;
+    }
+
+    .experience__details{
+        display: block;
     }
 
     .experience__container > div {

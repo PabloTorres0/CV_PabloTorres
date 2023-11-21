@@ -2,7 +2,6 @@
     display:grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
-
 }
 
 .about__me{
@@ -34,7 +33,7 @@
 .about__cards{
 
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
     gap: 1.5rem;
 
 }
@@ -78,6 +77,9 @@
         grid-template-columns: 1fr;
         gap:0;
 
+    }
+    header{
+        height: 100vh;
     }
     
     .about__me{

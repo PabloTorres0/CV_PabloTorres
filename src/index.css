@@ -14,7 +14,7 @@
   --color-bg:#1f1f38;
   --color-bg-variant: #2c2c6c;
   --color-primary:#4dc5ff;
-  --color-primary-variant: rgba(77, 181, 255, .3);
+  --color-primary-variant: rgba(77, 181, 255, .4);
   --color-white:#fff;
   --color-light: rgba(255, 255, 255, .6);
   
@@ -44,7 +44,7 @@ body{
 
 
 .container{
-  width: var(--container-width-lg);
+  width: var(--container-width-lg); 
   margin: 0 auto;
 }
 
@@ -102,7 +102,7 @@ a:hover{
 
 .btn-primary{
   background: var(--color-primary);
-  color: var(--color-bg)
+  color: var(--color-bg);
 }
 
 img{
@@ -116,7 +116,7 @@ img{
 
 @media screen and (max-width: 1024px){
   .container{
-      width: var(--container-width-md);
+       width: var(--container-width-md); 
   }
 
   section {
@@ -129,7 +129,7 @@ img{
 
 @media screen and (max-width: 600px){
   .container{
-      width: var(--container-width-sm);
+       width: var(--container-width-sm); 
   }
 
   section > h2 {
