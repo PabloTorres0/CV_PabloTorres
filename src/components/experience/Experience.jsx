@@ -2,81 +2,77 @@ import React from 'react'
 import './experience.css'
 import {BsPatchCheckFill} from 'react-icons/bs'
 
+const KnowledgesList =[
+  ['JavaScript', 'Experienced','Experimentado'],
+  ['JavaS', 'Experienced','Experimentado'],
+  ['HTML5', 'Intermediate', 'Intermedio'],
+  ['CSS3', 'Intermediate', 'Intermedio'],
+  ['React', 'Experienced','Experimentado'],
+  ['Bootstrap', 'Intermediate', 'Intermedio'],
+  ['AntDEsing', 'Intermediate', 'Intermedio'],
+  ['Next', 'Intermediate', 'Intermedio'],
+  ['Redux', 'Intermediate', 'Intermedio'],
+  ['GitHub', 'Experienced', 'Intermedio'],
+  ['TypeScript', 'Experienced','Experimentado'],
+  ['Tailwind', 'Intermediate', 'Intermedio'],
+  ['Firebase', 'Intermediate', 'Intermedio'],
+  ['Firestore', 'Intermediate', 'Intermedio'],
+  ['Lenguaje C', 'Experienced','Experimentado'],
+  ['C++', 'Experienced','Experimentado']
 
-const experience = () => {
+]
+
+const softwaresList = [
+  ['VisualStudioCode', 'Experienced', 'Experimentado'],
+  ['Python', 'Intermediate', 'Intermedio'],
+  ['Sigma', 'Intermediate', 'Intermedio'],
+  ['Eclipse', 'Intermediate', 'Intermedio'],
+  ['NetBeans', 'Experienced', 'Experimentado'],
+  ['MatLab', 'Experienced', 'Experimentado'],
+  ['QtCreator', 'Experienced', 'Experimentado'],
+]
+
+const experience = (props) => {
+  
+  const idiom = props.idiom
+  
   return (
     <section id='experience'>
-      <h5>What Skills I Have</h5>
-      <h2>My Esperience</h2>
+      <h5>{idiom ? 'What Knowledges I Have' : 'Los Conocimientos Que Tengo'}</h5>
+      <h2>{idiom ? 'Knowledges' : 'Conocimientos'}</h2>
       <div className="container experience__container">
         <div className="experience__frontend">
-          <h3>FrontEnd Developer</h3>
+         {/* <h3>FrontEnd Developer</h3>*/}
           <div className="experience__content">
-            <article className="experience__details">
-            <BsPatchCheckFill className='experience__details-icon'/>
-            <h4>HTML</h4>
-            <small className="text-light">Experienced</small>
-            </article>
+            
+            { KnowledgesList.map((item)=>{
 
-            <article className="experience__details">
-            <BsPatchCheckFill className='experience__details-icon'/>
-            <h4>CSS</h4>
-            <small className="text-light">Intermediate</small>
-            </article>
+                return(<article className="experience__details">
+                <BsPatchCheckFill className='experience__details-icon'/>
+                <h4>{item[0]}</h4>
+                <small className="text-light">{idiom ? item[1] : item[2]}</small>
+                </article>)
 
-            <article className="experience__details">
-            <BsPatchCheckFill className='experience__details-icon'/>
-            <h4>Bootstrap</h4>
-            <small className="text-light">Intermediate</small>
-            </article>
-
-            <article className="experience__details">
-            <BsPatchCheckFill className='experience__details-icon'/>
-            <h4>AntDesign</h4>
-            <small className="text-light">Intermediate</small>
-            </article>
-
-            <article className="experience__details">
-            <BsPatchCheckFill className='experience__details-icon'/>
-            <h4>JavaScript</h4>
-            <small className="text-light">Experienced</small>
-            </article>
-
-            <article className="experience__details">
-            <BsPatchCheckFill className='experience__details-icon'/>
-            <h4>React</h4>
-            <small className="text-light">Experienced</small>
-            </article>
+            })
+            }
 
           </div>
         </div>
 
         <div className="experience__backend">
-          <h3>Backend Developer</h3>
+          <h3>Softwares</h3>
           <div className="experience__content">
-            <article className="experience__details">
-            <BsPatchCheckFill className='experience__details-icon'/>
-            <h4>Node js</h4>
-            <small className="text-light">Experienced</small>
-            </article>
+            
+          { softwaresList.map((item)=>{
 
-            <article className="experience__details">
-            <BsPatchCheckFill className='experience__details-icon'/>
-            <h4>MongoDb</h4>
-            <small className="text-light">Intermediate</small>
-            </article>
+              return(<article className="experience__details">
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <h4>{item[0]}</h4>
+              <small className="text-light">{idiom ? item[1] : item[2]}</small>
+              </article>)
 
-            <article className="experience__details">
-            <BsPatchCheckFill className='experience__details-icon'/>
-            <h4>MySQL</h4>
-            <small className="text-light">Intermediate</small>
-            </article>
-
-            <article className="experience__details">
-            <BsPatchCheckFill className='experience__details-icon'/>
-            <h4>Python</h4>
-            <small className="text-light">Intermediate</small>
-            </article>
+            })
+            }
 
           
 

@@ -7,9 +7,7 @@ const Idiom = (props) => {
 
   return (
     <div className='container idioms'>
-        <a  onClick={()=>props.idiomSelect(null)} >{idiom? 'Spanish':'Español'} </a>
-        /
-        <a  onClick={()=>props.idiomSelect(true)}> {idiom? 'English':'Ingles'}</a>
+        <a onClick={()=>props.idiomSelect(!idiom)} >{idiom ? 'Español':'English'} </a>       
     </div>
   )
 }

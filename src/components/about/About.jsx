@@ -4,6 +4,10 @@ import ME from '../../assets/me-about.jpg'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
+import { TiCog } from "react-icons/ti";
+
+
+
 
 const About = (props) => {
   
@@ -11,8 +15,8 @@ const About = (props) => {
 
   return (
    <section id='about'>
-    <h5>Get to Know</h5>
-    <h2>About Me</h2>
+    <h5>{idiom ? 'Get to Know' : 'Conoce'}</h5>
+    <h2>{idiom ? 'About Me' : 'Acerca De Mí'}</h2>
 
     <div className='container about__container'>
       <div className="about__me">
@@ -25,34 +29,40 @@ const About = (props) => {
           <div className="about__cards">
             <article className="about__card">
                 <FaAward className='about__icon'/>
-              <h5>{idiom?'Experience':'Experiencia'}</h5>
-              <small>{idiom?'2 Years working esperience':'2 Años de experiencia'}</small>
+              <h5 className='text__skills'>{idiom?'Experience':'Experiencia'}</h5>
+              <small>{idiom?'2 Years FrontEnd esperience':'2 Años de experiencia en FrontEnd'}</small>
             </article>
 
             <article className="about__card">
                 <FaAward className='about__icon'/>
-              <h5>{idiom?'Clients':'Clientes'}</h5>
-              <small>{idiom?'+ 200 Worldwide':'+ 200 trasnacionales'}</small>
+              <h5 className='text__skills'>{idiom?'Knowledges':'Conocimientos'}</h5>
+              <small>{idiom?'Strong programming knowledge':'Solidos conocimientos en programación'}</small>
             </article>
 
             <article className="about__card">
                 <FaAward className='about__icon'/>
-              <h5>{idiom?'Proyects':'Proyectos'}</h5>
-              <small>{idiom?'80 completed poryects':'80 proyectos completados'}</small>
+              <h5 className='text__skills'>{idiom?'Skills':'Habilidades'}</h5>
+              <li> <TiCog/> <small>{idiom?'Make desitions':'Toma de desiciones '}</small></li>
+              <li> <TiCog/> <small>{idiom?'Autodidact':'Autodidacta'}</small></li>
+              <li> <TiCog/> <small>{idiom?'Critical Thinking':'Pensamiento Crítico'}</small></li>
+              <li> <TiCog/> <small>{idiom?'Conflict Management':'Manejo de Conflictos'}</small> </li>
             </article>
 
 
             <article className="about__card">
                 <FaAward className='about__icon'/>
-              <h5>{idiom?'Proyects':'Proyectos'}</h5>
-              <small>{idiom?'80 completed poryects':'80 proyectos completados'}</small>
+              <h5 className='text__skills's>{idiom?'Skills':'Habilidades'}</h5>
+              <li> <TiCog/> <small>{idiom?'Stress Management':'Gestión de Estrés'}</small></li>
+              <li> <TiCog/> <small>{idiom?'Lidership':'Liderasgo'}</small></li>
+              <li> <TiCog/> <small>{idiom?'Data Management and analysis':'Manejo y Análisis De Datos'}</small></li>
             </article>
           </div>
           
 
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde id at illo cumque tempora voluptates omnis magnam, minima animi nam iure sit velit fugiat, natus incidunt impedit optio labore vitae?</p>
+          <p>{idiom ? 'sadadasd sadasd' : 'Mi objetivo personal es superarme en todos los aspectos de mi vida y dar lo mejor de mi día a día. Me interesa ser parte de proyectos tecnológicos donde pueda tener desarrollo personal y profesional.'}</p>
+          <p>{idiom ? 'sadsadd dsfdsu saduhudsik sdauiu' : 'Mi objetivo personal es superarme en todos los aspectos de mi vida y dar lo mejor de mi día a día. Me interesa ser parte de proyectos tecnológicos donde pueda tener desarrollo personal y profesional.'}</p>
         
-          <a href="#contact" className='btn btn-primary'>Lets Talk</a>
+          <a href="#contact" className='btn btn-primary'>{idiom ? 'Lets Talk' : 'Contactame'}</a>
           </div>
       </div>
     

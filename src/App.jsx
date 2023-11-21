@@ -9,7 +9,7 @@ import Idiom from './components/idiom/Idiom'
 
 const App = () => {
   
-  const[idiom, setIdiom] = React.useState(null)
+  const[idiom, setIdiom] = React.useState(false)
   const idiomSelect = (selected) =>{
     setIdiom(selected)
     console.log(selected)
