@@ -1,0 +1,37 @@
+.university__container {
+    margin-top: 5rem;
+
+}
+
+
+.universityList__container{
+  align-items: center;
+}
+
+.universityList__item{
+    background: var(--color-bg-variant);
+    padding: 3rem;
+    border-radius: 2rem;
+    margin: 3.5rem 0;
+    width: 100%;
+    height: auto;
+    transition: var(--transition);
+    border: 1px solid transparent;;
+    
+}
+
+
+.universityList__item:hover{
+    background: transparent;
+    border-color: var(--color-white);
+}
+
+.studies__grup{
+    display: flex;
+    color: var(--color-primary);
+
+}
+
+.light{
+    color: var(--color-light);
+}
