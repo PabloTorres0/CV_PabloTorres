@@ -9,7 +9,7 @@ const header = (props) => {
   return (
     <header id='header'>
       <div className="container header__container">
-        <h5>{idiom?'Hi, My Name Is Pablo...!!!':'Hola, Mi Nombre Es Pablo...!!!'}</h5>
+        <h5>{idiom?'Hi, My Name Is...':'Hola, Mi Nombre Es...'}</h5>
         <h1>Pablo Torres</h1>
         <h5 className="text-light">{idiom?'FrontEnd Developer':'Desarrollador FrontEnd'}</h5>
         <CTA idiom={idiom}/> 
