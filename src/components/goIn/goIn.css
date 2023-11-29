@@ -1,0 +1,47 @@
+.container__goIn{
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100vh;
+    background: var(--color-primary);
+    transition: var(--transition2)
+}
+.container__goIn-next{
+    display: grid;
+    place-items: center;
+    background: blue;
+    width: 100%;
+    height: 1px;
+}
+
+.container__goIn a{
+    position: relative;
+    font-size: 6rem;
+    color: var(--color-bg)
+
+    
+}
+.container__goIn a:hover{
+
+    color: var(--color-white);
+    cursor: default;
+    font-size: 7rem;
+    
+}
+
+
+.container__goIn-next a{
+    position: relative;
+    font-size: 6rem;
+    color: var(--color-bg)
+
+    
+}
+
+.container__goIn-next a:hover{
+
+    color: var(--color-white);
+    cursor: default;
+    font-size: 7rem;
+    
+}

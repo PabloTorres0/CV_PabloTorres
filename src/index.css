@@ -35,6 +35,7 @@
   --color-light: #d29696;
   
   --transition: all 400ms ease;
+  --transition2: all 10000ms ease;
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
@@ -62,6 +63,9 @@ body{
 .container{
   width: var(--container-width-lg); 
   margin: 0 auto;
+}
+.container__principal-goIn{
+  transition: var(--transition);
 }
 
 h1,h2,h3,h4,h5{

@@ -1,0 +1,14 @@
+.container__mainNav{
+    background: var(--color-primary);
+    color: var(--color-variant);
+    text-align: right;
+    padding: 0px 20px;
+    height: 2rem;
+    margin-bottom: 0;
+    transition: var(--transition);
+}
+.container__mainNav:hover{
+    color: var(--color-bg);
+    
+}
+

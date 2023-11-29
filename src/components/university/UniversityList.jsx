@@ -20,7 +20,7 @@ const UniversityList = (props) => {
             </div>
             <h2 className='light'>{idiom ? 'MECHATRONICS EGINEERING' : 'INGENIERÍA EN MECATRÓNICA'}</h2>
             <p>
-            Proyecto Terminal: Robot de estructura modular de ensamblaje en configuraciones cartesiana y delta lineal con porta-herramientas para seguimiento de trayectorias.
+            {idiom ? 'Final Project: Robot of modular structure for assembly in Cartesian and linear delta configurations with tool-holder for trajectory tracking.' : 'Proyecto Terminal: Robot de estructura modular de ensamblaje en configuraciones cartesiana y delta lineal con porta-herramientas para seguimiento de trayectorias.'}
             </p>
           </div>
 
@@ -31,7 +31,7 @@ const UniversityList = (props) => {
           </div>
             <h2 className='light'>{idiom ? 'SMILE PROGRAM' : 'PROGRAMA SMILE'}</h2>
             <p>
-            Programa de movilidad internacional SMILE Ingenieria Mecatrónica en Barcelona, España.
+            {idiom ? 'International Mobility Program (SMILE) Mechatronics Engineering.' : 'Programa de movilidad internacional SMILE Ingenieria Mecatrónica en Barcelona, España.'}
             </p>
           </div>
 
