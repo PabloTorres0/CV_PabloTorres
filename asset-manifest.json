@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "//pablotorres0.gothub.io/CV_PabloTorres/static/css/main.b4f7d035.css",
-    "main.js": "//pablotorres0.gothub.io/CV_PabloTorres/static/js/main.0c3ccc32.js",
-    "static/js/845.50b21c9c.chunk.js": "//pablotorres0.gothub.io/CV_PabloTorres/static/js/845.50b21c9c.chunk.js",
-    "static/media/cv.pdf": "//pablotorres0.gothub.io/CV_PabloTorres/static/media/cv.1676dcdc83730930d888.pdf",
-    "static/media/me.png": "//pablotorres0.gothub.io/CV_PabloTorres/static/media/me.821ecddcb9953b46bf75.png",
-    "static/media/me-about.jpg": "//pablotorres0.gothub.io/CV_PabloTorres/static/media/me-about.fb4452e7f286d3636ef9.jpg",
-    "static/media/tr2.mp3": "//pablotorres0.gothub.io/CV_PabloTorres/static/media/tr2.792b11e159c789734813.mp3",
-    "static/media/tr4.mp3": "//pablotorres0.gothub.io/CV_PabloTorres/static/media/tr4.5ca3574cc8a6d955b984.mp3",
-    "static/media/button-click.mp3": "//pablotorres0.gothub.io/CV_PabloTorres/static/media/button-click.a8feb6c3ac9a64a3334b.mp3",
-    "static/media/laser.mp3": "//pablotorres0.gothub.io/CV_PabloTorres/static/media/laser.d2970a9137f1f33641f9.mp3",
-    "index.html": "//pablotorres0.gothub.io/CV_PabloTorres/index.html",
-    "main.b4f7d035.css.map": "//pablotorres0.gothub.io/CV_PabloTorres/static/css/main.b4f7d035.css.map",
-    "main.0c3ccc32.js.map": "//pablotorres0.gothub.io/CV_PabloTorres/static/js/main.0c3ccc32.js.map",
-    "845.50b21c9c.chunk.js.map": "//pablotorres0.gothub.io/CV_PabloTorres/static/js/845.50b21c9c.chunk.js.map"
+    "main.css": "//pablotorres0.github.io/CV_PabloTorres/static/css/main.b4f7d035.css",
+    "main.js": "//pablotorres0.github.io/CV_PabloTorres/static/js/main.fe36b427.js",
+    "static/js/845.50b21c9c.chunk.js": "//pablotorres0.github.io/CV_PabloTorres/static/js/845.50b21c9c.chunk.js",
+    "static/media/cv.pdf": "//pablotorres0.github.io/CV_PabloTorres/static/media/cv.1676dcdc83730930d888.pdf",
+    "static/media/me.png": "//pablotorres0.github.io/CV_PabloTorres/static/media/me.821ecddcb9953b46bf75.png",
+    "static/media/me-about.jpg": "//pablotorres0.github.io/CV_PabloTorres/static/media/me-about.fb4452e7f286d3636ef9.jpg",
+    "static/media/tr2.mp3": "//pablotorres0.github.io/CV_PabloTorres/static/media/tr2.792b11e159c789734813.mp3",
+    "static/media/tr4.mp3": "//pablotorres0.github.io/CV_PabloTorres/static/media/tr4.5ca3574cc8a6d955b984.mp3",
+    "static/media/button-click.mp3": "//pablotorres0.github.io/CV_PabloTorres/static/media/button-click.a8feb6c3ac9a64a3334b.mp3",
+    "static/media/laser.mp3": "//pablotorres0.github.io/CV_PabloTorres/static/media/laser.d2970a9137f1f33641f9.mp3",
+    "index.html": "//pablotorres0.github.io/CV_PabloTorres/index.html",
+    "main.b4f7d035.css.map": "//pablotorres0.github.io/CV_PabloTorres/static/css/main.b4f7d035.css.map",
+    "main.fe36b427.js.map": "//pablotorres0.github.io/CV_PabloTorres/static/js/main.fe36b427.js.map",
+    "845.50b21c9c.chunk.js.map": "//pablotorres0.github.io/CV_PabloTorres/static/js/845.50b21c9c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b4f7d035.css",
-    "static/js/main.0c3ccc32.js"
+    "static/js/main.fe36b427.js"
   ]
 }
