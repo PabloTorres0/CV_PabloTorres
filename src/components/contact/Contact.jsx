@@ -38,21 +38,21 @@ const Contact = (props) => {
               <MdOutlineEmail className='contact__option-ico'/>
               <h4>Email</h4>
               <h5>pablo.javier.torres.martinez@gmail.com</h5>
-              <a href="mailto:pablo.javier.torres.martinez@gamil.com" onMouseEnter={()=>handleHover(4)} onClick={()=>handleHover(3)}>{idiom ? 'Send a message' : 'Enviar Mensaje'}</a>
+              <a href="mailto:pablo.javier.torres.martinez@gamil.com" target='_blank' rel='noreferrer' onMouseEnter={()=>handleHover(4)} onClick={()=>handleHover(3)}>{idiom ? 'Send a message' : 'Enviar Mensaje'}</a>
             </article>
             
             <article className="contact__option" onMouseEnter={()=>handleHover(2)}>
               <RiMessengerLine   className='contact__option-ico'/>
               <h4>Messenger</h4>
               <h5>Pablo Martinez</h5>
-              <a href="http://m.me/pablo.martinez.96995" onMouseEnter={()=>handleHover(4)} onClick={()=>handleHover(3)}>{idiom ? 'Send a message' : 'Enviar Mensaje'}</a>
+              <a href="http://m.me/pablo.martinez.96995" target='_blank' rel='noreferrer' onMouseEnter={()=>handleHover(4)} onClick={()=>handleHover(3)}>{idiom ? 'Send a message' : 'Enviar Mensaje'}</a>
             </article>
 
             <article className="contact__option" onMouseEnter={()=>handleHover(2)}>
               <BsWhatsapp className='contact__option-ico'/>
               <h4>WhatsApp</h4>
               <h5>5560075650</h5>
-              <a href="https://api.whatsapp.com/send?phone=525560075650" onMouseEnter={()=>handleHover(4)} onClick={()=>handleHover(3)}>{idiom ? 'Send a message' : 'Enviar Mensaje'}</a>
+              <a href="https://api.whatsapp.com/send?phone=525560075650" target='_blank' rel='noreferrer' onMouseEnter={()=>handleHover(4)} onClick={()=>handleHover(3)}>{idiom ? 'Send a message' : 'Enviar Mensaje'}</a>
             </article>
 
         </div>

@@ -20,9 +20,9 @@ const Footer = (props) => {
       </ul>
 
       <div className="footer__socials">
-        <a href="httpa://facebook.com" onMouseEnter={()=>handleHover(2)} onClick={()=>handleHover(3)}><FaFacebook/></a>
-        <a href="httpa://instagram.com" onMouseEnter={()=>handleHover(2)} onClick={()=>handleHover(3)}><FiInstagram/></a>
-        <a href="httpa://twiter.com" onMouseEnter={()=>handleHover(2)} onClick={()=>handleHover(3)}><IoLogoTwitter/></a>
+        <a href="https://facebook.com" target='_blank' rel='noreferrer' onMouseEnter={()=>handleHover(2)} onClick={()=>handleHover(3)}><FaFacebook/></a>
+        <a href="https://instagram.com" target='_blank' rel='noreferrer' onMouseEnter={()=>handleHover(2)} onClick={()=>handleHover(3)}><FiInstagram/></a>
+        <a href="https://twitter.com" target='_blank' rel='noreferrer'   onMouseEnter={()=>handleHover(2)} onClick={()=>handleHover(3)}><IoLogoTwitter/></a>
       </div>
 
       <div className="footer_copyright">
