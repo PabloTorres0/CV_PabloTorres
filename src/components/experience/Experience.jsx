@@ -41,7 +41,7 @@ const experience = (props) => {
       <h5>{idiom ? 'What Knowledges I Have' : 'Los Conocimientos Que Tengo'}</h5>
       <h2>{idiom ? 'Knowledges' : 'Conocimientos'}</h2>
       <div className="container experience__container">
-        <div className="experience__frontend">
+        <div className="experience__frontend" onMouseEnter={()=>props.handleHover(2)}>
          {/* <h3>FrontEnd Developer</h3>*/}
           <div className="experience__content">
             
@@ -59,7 +59,7 @@ const experience = (props) => {
           </div>
         </div>
 
-        <div className="experience__backend">
+        <div className="experience__backend" onMouseEnter={()=>props.handleHover(2)}>
           <h3>Softwares</h3>
           <div className="experience__content">
             

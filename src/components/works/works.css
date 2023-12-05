@@ -44,3 +44,19 @@
 .works__item p {
     color: var(--color-white)
 } 
+
+.item__grup p {
+    text-align: justify;
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+    .works__container{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+   
+      }

@@ -7,8 +7,8 @@ const CTA = (props) => {
   const idiom = props.idiom
   return (
     <div>
-        <a href={CV} download className='btn aling'>{idiom ? 'Download CV' : 'Descargar CV'}</a>
-        <a href="#contact" className='btn btn-primary aling'>{idiom ? 'Contact Me' : 'Contactame'}</a>
+        <a href={CV} download className='btn aling' onMouseEnter={()=>props.handleHover(4)}>{idiom ? 'Download CV' : 'Descargar CV'}</a>
+        <a href="#contact" className='btn btn-primary aling' onMouseEnter={()=>props.handleHover(4)}>{idiom ? 'Contact Me' : 'Contactame'}</a>
     </div>
   )
 }

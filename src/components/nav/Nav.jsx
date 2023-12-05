@@ -8,8 +8,9 @@ import { IoIosBriefcase } from "react-icons/io";
 import { IoMdSchool } from "react-icons/io";
 
 
-const Nav = () => {
+const Nav = (props) => {
   const [activeNav, setActiveNav]= React.useState('#')
+  const handleHover = props.handleHover
     
   const changeActiveState = (state)=>{
       setActiveNav(state);
@@ -17,12 +18,12 @@ const Nav = () => {
 
   return (
     <nav>
-      <a href="#header" onClick={()=>changeActiveState("#")} className={activeNav==="#" ? 'active': ''}><AiOutlineHome/></a>
-      <a href="#about" onClick={()=>changeActiveState("#about")} className={activeNav==="#about" ? 'active': ''}><AiOutlineUser/></a>
-      <a href="#university" onClick={()=>changeActiveState("#university")} className={activeNav==="#university" ? 'active': ''}><IoMdSchool/></a>
-      <a href="#works" onClick={()=>changeActiveState("#works")} className={activeNav==="#works" ? 'active': ''}><IoIosBriefcase/></a>
-      <a href="#experience" onClick={()=>changeActiveState("#experience")} className={activeNav==="#experience" ? 'active': ''}><BiBook/></a>
-      <a href="#contact" onClick={()=>changeActiveState("#contact")} className={activeNav==="#contact" ? 'active': ''}><BiMessageSquareDetail/></a>
+      <a href="#mainNav" onClick={()=>{changeActiveState("#mainNav"); handleHover(3) }} onMouseEnter={()=>handleHover(4)} className={activeNav==="#" ? 'active': ''}><AiOutlineHome/></a>
+      <a href="#about" onClick={()=>{changeActiveState("#about"); handleHover(3)}} onMouseEnter={()=>handleHover(4)} className={activeNav==="#about" ? 'active': ''}><AiOutlineUser/></a>
+      <a href="#university" onClick={()=>{changeActiveState("#university"); handleHover(3)}} onMouseEnter={()=>handleHover(4)} className={activeNav==="#university" ? 'active': ''}><IoMdSchool/></a>
+      <a href="#works" onClick={()=>{changeActiveState("#works"); handleHover(3)}} onMouseEnter={()=>handleHover(4)} className={activeNav==="#works" ? 'active': ''}><IoIosBriefcase/></a>
+      <a href="#experience" onClick={()=>{changeActiveState("#experience"); handleHover(3)}} onMouseEnter={()=>handleHover(4)} className={activeNav==="#experience" ? 'active': ''}><BiBook/></a>
+      <a href="#contact" onClick={()=>{changeActiveState("#contact"); handleHover(3)}} onMouseEnter={()=>handleHover(4)} className={activeNav==="#contact" ? 'active': ''}><BiMessageSquareDetail/></a>
 
     </nav>
   )

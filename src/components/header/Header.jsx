@@ -12,13 +12,13 @@ const header = (props) => {
         <h5>{idiom?'Hi, My Name Is...':'Hola, Mi Nombre Es...'}</h5>
         <h1>Pablo Torres</h1>
         <h5 className="text-light">{idiom?'FrontEnd Developer':'Desarrollador FrontEnd'}</h5>
-        <CTA idiom={idiom}/> 
-        <HeaderSocial idiom={idiom}/>
+        <CTA idiom={idiom} handleHover={props.handleHover}/> 
+        <HeaderSocial idiom={idiom} handleHover={props.handleHover}/>
       <div className="me">
           <img src={Me} alt="me" />
       </div>
 
-        <a href="#contact" className='scroll__down'>{idiom?'Scroll Down':'Scroll al Final'}</a>
+        <a href="#contact" className='scroll__down' onClick={()=>props.handleHover(3)} onMouseEnter={()=>props.handleHover(4)}>{idiom?'Scroll Down':'Scroll al Final'}</a>
         
       </div>
 

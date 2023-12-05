@@ -8,6 +8,7 @@ import emailjs from 'emailjs-com';
 const Contact = (props) => {
 
   const idiom = props.idiom
+  const handleHover = props.handleHover
 
   const form = useRef();
 
@@ -33,25 +34,25 @@ const Contact = (props) => {
       <div className="container contact__container">
         <div className="contact__options">
            
-            <article className="contact__option">
+            <article className="contact__option"  onMouseEnter={()=>handleHover(2)}>
               <MdOutlineEmail className='contact__option-ico'/>
               <h4>Email</h4>
               <h5>pablo.javier.torres.martinez@gmail.com</h5>
-              <a href="mailto:pablo.javier.torres.martinez@gamil.com">{idiom ? 'Send a message' : 'Enviar Mensaje'}</a>
+              <a href="mailto:pablo.javier.torres.martinez@gamil.com" onMouseEnter={()=>handleHover(4)} onClick={()=>handleHover(3)}>{idiom ? 'Send a message' : 'Enviar Mensaje'}</a>
             </article>
             
-            <article className="contact__option">
+            <article className="contact__option" onMouseEnter={()=>handleHover(2)}>
               <RiMessengerLine   className='contact__option-ico'/>
               <h4>Messenger</h4>
               <h5>Pablo Martinez</h5>
-              <a href="http://m.me/pablo.martinez.96995">{idiom ? 'Send a message' : 'Enviar Mensaje'}</a>
+              <a href="http://m.me/pablo.martinez.96995" onMouseEnter={()=>handleHover(4)} onClick={()=>handleHover(3)}>{idiom ? 'Send a message' : 'Enviar Mensaje'}</a>
             </article>
 
-            <article className="contact__option">
+            <article className="contact__option" onMouseEnter={()=>handleHover(2)}>
               <BsWhatsapp className='contact__option-ico'/>
               <h4>WhatsApp</h4>
               <h5>5560075650</h5>
-              <a href="https://api.whatsapp.com/send?phone=525560075650">{idiom ? 'Send a message' : 'Enviar Mensaje'}</a>
+              <a href="https://api.whatsapp.com/send?phone=525560075650" onMouseEnter={()=>handleHover(4)} onClick={()=>handleHover(3)}>{idiom ? 'Send a message' : 'Enviar Mensaje'}</a>
             </article>
 
         </div>
@@ -60,7 +61,7 @@ const Contact = (props) => {
             <input type='text' name='name' placeholder={idiom ? 'Your Full Name' : 'Nombre Completo'} required/>
             <input type="email" name='email' placeholder={idiom ? 'Your Email' : 'Email'} required/>
             <textarea name="message" rows="7" placeholder={idiom ? 'Your Message' : 'Mensaje'} required></textarea>
-            <button type='submit' className='btn btn-primary'>{idiom ? 'Send a message' : 'Enviar Mensaje'}</button>
+            <button type='submit' className='btn btn-primary' onMouseEnter={()=>handleHover(4)} onClick={()=>handleHover(3)}>{idiom ? 'Send a message' : 'Enviar Mensaje'}</button>
         </form>
 
       </div>

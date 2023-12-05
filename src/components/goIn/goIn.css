@@ -6,18 +6,13 @@
     background: var(--color-primary);
     transition: var(--transition2)
 }
-.container__goIn-next{
-    display: grid;
-    place-items: center;
-    background: blue;
-    width: 100%;
-    height: 1px;
-}
+
 
 .container__goIn a{
     position: relative;
-    font-size: 6rem;
-    color: var(--color-bg)
+    font-size: 8rem;
+    color: var(--color-bg);
+    font-weight: 600;
 
     
 }
@@ -25,7 +20,8 @@
 
     color: var(--color-white);
     cursor: default;
-    font-size: 7rem;
+    font-size: 9rem;
+    font-weight: 700;
     
 }
 
@@ -45,3 +41,16 @@
     font-size: 7rem;
     
 }
+
+@media screen and (max-width: 600px) {
+    
+    .container__goIn a{
+        font-size: 4rem;
+    }
+
+    .container__goIn a:hover{
+        font-size: 5rem;
+    }
+
+
+      }

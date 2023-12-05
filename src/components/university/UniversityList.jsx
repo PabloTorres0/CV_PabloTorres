@@ -13,7 +13,7 @@ const UniversityList = (props) => {
         <h5>{idiom ? 'Studies' : 'Estudios'}</h5>
         <h2>{idiom ? 'University Studies' : 'Estudios Universitarios'}</h2>
         <div className="universityList__container">
-          <div className="universityList__item">
+          <div className="universityList__item" onMouseEnter={()=>props.handleHover(2)}>
             <div className="studies__grup">
               <IoIosBookmark/>
               <h5>UPIITA - IPN | 2013 - 2018</h5>
@@ -24,7 +24,7 @@ const UniversityList = (props) => {
             </p>
           </div>
 
-          <div className="universityList__item">
+          <div className="universityList__item" onMouseEnter={()=>props.handleHover(2)}>
           <div className="studies__grup">
               <IoIosBookmark/>
               <h5>{idiom ? 'UPC - SPAIN | FEB - JUN 2017' : 'UPC - ESPAÑA | FEB - JUN 2017'}</h5>

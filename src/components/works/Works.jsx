@@ -13,7 +13,7 @@ const Works = (props) => {
       <h5>{idiom ? 'Work' : 'Trabajo'}</h5>
       <h2>{idiom ? 'Work Experience' : 'Experiencia De Trabajo'}</h2>
       <div className="works__container">
-        <div className="works__item">
+        <div className="works__item" onMouseEnter={()=>props.handleHover(2)}>
             <div className="item__grup"> 
                 <VscGear className='works__icon'/>
                 <h5>HALER TECHNOLOGICAL DEVELOPMENT S.A. DE C.V.</h5>
@@ -34,7 +34,7 @@ const Works = (props) => {
             </div>
         </div>  
 
-        <div className="works__item">
+        <div className="works__item" onMouseEnter={()=>props.handleHover(2)}>
             <div className="item__grup"> 
                 <VscGear className='works__icon'/>
                 <h5>AQUASTEAM SAUNAS Y GENERADORES DE VAPOR.</h5>

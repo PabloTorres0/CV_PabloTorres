@@ -31,6 +31,10 @@
     color: var(--color-primary);
 
 }
+.universityList__item p{
+    text-align: justify
+
+}
 
 .light{
     color: var(--color-light);

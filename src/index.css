@@ -35,7 +35,7 @@
   --color-light: #d29696;
   
   --transition: all 400ms ease;
-  --transition2: all 10000ms ease;
+  --transition2: all 1000ms ease;
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
@@ -56,6 +56,7 @@ body{
   color: var(--color-white);
   line-height: 1.7;
   background-image: url(../src/assets/bg-texture.png);
+  transition: var(--transition2);
 
 }
 
@@ -64,9 +65,7 @@ body{
   width: var(--container-width-lg); 
   margin: 0 auto;
 }
-.container__principal-goIn{
-  transition: var(--transition);
-}
+
 
 h1,h2,h3,h4,h5{
 font-weight: 500;
@@ -156,4 +155,21 @@ img{
     margin-top: 2rem;
     
   }
+}
+
+.fade-enter{
+  opacity: 0;
+}
+.fade-exit{
+  opacity: 1;
+}
+.fade-enter-active{
+  opacity: 1;
+}
+.fade-exit-active{
+  opacity: 0;
+}
+.fade-enter-active,
+.fade-exit-active{
+  transition: opacity 500ms;
 }

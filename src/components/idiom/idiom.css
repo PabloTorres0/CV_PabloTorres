@@ -1,5 +1,5 @@
 .idioms{
-    background: rgba(255,0,0,.1);
+    
     width: max-content;
     display: block;
     padding: .7rem 1.7rem;
@@ -13,6 +13,17 @@
     border-radius: 3rem;
     backdrop-filter: blur(15px);
     cursor: default;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.idiom__go-in-on{
+   background: rgba(0,0,0,.9);
+   
+}
+.idiom__go-in-of{
+
+   background: rgba(255,0,0,.1);
+   
 }
  nav a{
     background: transparent;
