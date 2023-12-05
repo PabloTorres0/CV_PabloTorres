@@ -26,21 +26,6 @@
 }
 
 
-.container__goIn-next a{
-    position: relative;
-    font-size: 6rem;
-    color: var(--color-bg)
-
-    
-}
-
-.container__goIn-next a:hover{
-
-    color: var(--color-white);
-    cursor: default;
-    font-size: 7rem;
-    
-}
 
 @media screen and (max-width: 600px) {
     

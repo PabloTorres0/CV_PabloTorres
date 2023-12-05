@@ -66,6 +66,17 @@ header{
     header{
         height: 68vh;
     }
+
+    .me{
+       
+        width: 20rem;
+        height: 25rem;
+        position: absolute;
+        left: calc(50% - 10rem);
+        margin-top: 1rem;
+        border-radius: 11rem 11rem 0 0;
+        padding: 5rem 1.5rem 1.5rem 1.5rem;
+    }
     
 }
 
