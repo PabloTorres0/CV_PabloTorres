@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/CV_PabloTorres/static/css/main.b5795f24.css",
-    "main.js": "/CV_PabloTorres/static/js/main.3d0879a1.js",
+    "main.css": "/CV_PabloTorres/static/css/main.b73fcccf.css",
+    "main.js": "/CV_PabloTorres/static/js/main.b635b767.js",
     "static/js/845.50b21c9c.chunk.js": "/CV_PabloTorres/static/js/845.50b21c9c.chunk.js",
     "static/media/pablo5.png": "/CV_PabloTorres/static/media/pablo5.4c860f08b5ff72a3bca3.png",
-    "static/media/pablo4.png": "/CV_PabloTorres/static/media/pablo4.6dc4e3f74d12818e4de9.png",
+    "static/media/pablo6.png": "/CV_PabloTorres/static/media/pablo6.136d586a5d6263ad5439.png",
     "static/media/cv.pdf": "/CV_PabloTorres/static/media/cv.1676dcdc83730930d888.pdf",
     "static/media/cv_español.pdf": "/CV_PabloTorres/static/media/cv_español.ee590ee328d1a94e341d.pdf",
     "static/media/cv_english.pdf": "/CV_PabloTorres/static/media/cv_english.8d943e18833339c951ee.pdf",
@@ -13,12 +13,12 @@
     "static/media/button-click.mp3": "/CV_PabloTorres/static/media/button-click.a8feb6c3ac9a64a3334b.mp3",
     "static/media/laser.mp3": "/CV_PabloTorres/static/media/laser.d2970a9137f1f33641f9.mp3",
     "index.html": "/CV_PabloTorres/index.html",
-    "main.b5795f24.css.map": "/CV_PabloTorres/static/css/main.b5795f24.css.map",
-    "main.3d0879a1.js.map": "/CV_PabloTorres/static/js/main.3d0879a1.js.map",
+    "main.b73fcccf.css.map": "/CV_PabloTorres/static/css/main.b73fcccf.css.map",
+    "main.b635b767.js.map": "/CV_PabloTorres/static/js/main.b635b767.js.map",
     "845.50b21c9c.chunk.js.map": "/CV_PabloTorres/static/js/845.50b21c9c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5795f24.css",
-    "static/js/main.3d0879a1.js"
+    "static/css/main.b73fcccf.css",
+    "static/js/main.b635b767.js"
   ]
 }
