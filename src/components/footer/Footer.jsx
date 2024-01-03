@@ -11,12 +11,12 @@ const Footer = (props) => {
     <footer>
       <a href="#heater" className='footer__logo'>PabloTorres</a>
       <ul className='permalinks'>
-          <li><a href="#header" onMouseEnter={()=>handleHover(4)} onClick={()=>handleHover(3)}>{idiom ? 'Inicio' : 'Home'}</a></li>
-          <li><a href="#about" onMouseEnter={()=>handleHover(4)} onClick={()=>handleHover(3)}>{idiom? 'Acerca' : 'About'}</a></li>
-          <li><a href="#university" onMouseEnter={()=>handleHover(4)} onClick={()=>handleHover(3)}>{idiom ? 'Estudios' : 'Studies'}</a></li>
-          <li><a href="#works" onMouseEnter={()=>handleHover(4)} onClick={()=>handleHover(3)}>{idiom ? 'Experiencia' :'Experience'}</a></li>
-          <li><a href="#experience" onMouseEnter={()=>handleHover(4)} onClick={()=>handleHover(3)}>{idiom ? 'Conocimientos' : 'Knowledges'}</a></li>
-          <li><a href="#contact" onMouseEnter={()=>handleHover(4)} onClick={()=>handleHover(3)}>{idiom ? 'Contacto' : 'Contact'}</a></li>
+          <li><a href="#header" onMouseEnter={()=>handleHover(4)} onClick={()=>handleHover(3)}>{!idiom ? 'Inicio' : 'Home'}</a></li>
+          <li><a href="#about" onMouseEnter={()=>handleHover(4)} onClick={()=>handleHover(3)}>{!idiom? 'Acerca' : 'About'}</a></li>
+          <li><a href="#university" onMouseEnter={()=>handleHover(4)} onClick={()=>handleHover(3)}>{!idiom ? 'Estudios' : 'Studies'}</a></li>
+          <li><a href="#works" onMouseEnter={()=>handleHover(4)} onClick={()=>handleHover(3)}>{!idiom ? 'Experiencia' :'Experience'}</a></li>
+          <li><a href="#experience" onMouseEnter={()=>handleHover(4)} onClick={()=>handleHover(3)}>{!idiom ? 'Conocimientos' : 'Knowledges'}</a></li>
+          <li><a href="#contact" onMouseEnter={()=>handleHover(4)} onClick={()=>handleHover(3)}>{!idiom ? 'Contacto' : 'Contact'}</a></li>
       </ul>
 
       <div className="footer__socials">

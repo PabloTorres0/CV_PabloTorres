@@ -36,20 +36,21 @@ header{
     content: '';
     width: 1px;
     height: 2rem;
-    background: var(--color-primary);
+   background: var(--color-primary);
 }
 
 /*------------------------ me ---------*/
 .me{
     background:linear-gradient(var(--color-primary),transparent);
-    width: 22rem;
-    height: 25rem;
+    width: 20rem;
+    /*height: 25rem;*/
+    height: 30rem;
     position: absolute;
     left: calc(50% - 11rem);
-    margin-top: 4rem;
+    margin-top: 2rem;
     overflow: hidden;
     border-radius: 12rem 12rem 0 0;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    padding: 3rem .5rem 0rem .5rem;
 }
 
 

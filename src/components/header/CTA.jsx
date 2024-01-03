@@ -1,5 +1,7 @@
 import React from 'react'
 import CV from '../../assets/cv.pdf'
+import cvEsp from '../../assets/cv_español.pdf'
+import cvEng from '../../assets/cv_english.pdf'
 import './cta.css'
 
 
@@ -7,7 +9,7 @@ const CTA = (props) => {
   const idiom = props.idiom
   return (
     <div>
-        <a href={CV} download className='btn aling' onMouseEnter={()=>props.handleHover(4)}>{idiom ? 'Download CV' : 'Descargar CV'}</a>
+        <a href={idiom ? cvEng : cvEsp} download className='btn aling' onMouseEnter={()=>props.handleHover(4)}>{idiom ? 'Download CV' : 'Descargar CV'}</a>
         <a href="#contact" className='btn btn-primary aling' onMouseEnter={()=>props.handleHover(4)}>{idiom ? 'Contact Me' : 'Contactame'}</a>
     </div>
   )

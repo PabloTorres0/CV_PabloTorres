@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/pablo5.png'
 import {FaAward} from 'react-icons/fa'
 import { TiCog } from "react-icons/ti";
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
-import Me from '../../assets/me.png'
+import Me from '../../assets/pablo4.png'
 import HeaderSocial from './HeaderSocial'
 
 const header = (props) => {
@@ -18,7 +18,7 @@ const header = (props) => {
           <img src={Me} alt="me" />
       </div>
 
-        <a href="#contact" className='scroll__down' onClick={()=>props.handleHover(3)} onMouseEnter={()=>props.handleHover(4)}>{idiom?'Scroll Down':'Scroll al Final'}</a>
+        <a href="#contact" className='scroll__down' onClick={()=>props.handleHover(3)} onMouseEnter={()=>props.handleHover(4)}>{idiom?'Scroll Down':'Ir al Final'}</a>
         
       </div>
 
