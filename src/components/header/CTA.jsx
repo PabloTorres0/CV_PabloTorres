@@ -1,7 +1,7 @@
 import React from 'react'
-import CV from '../../assets/cv.pdf'
-import cvEsp from '../../assets/cv_español.pdf'
-import cvEng from '../../assets/cv_english.pdf'
+
+import cvEsp from '../../assets/CV_Pablo_Javier_Torres_Martinez_español.pdf'
+import cvEng from '../../assets/CV_Pablo_Javier_Torres_Martinez_english.pdf'
 import './cta.css'
 
 

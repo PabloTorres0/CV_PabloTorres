@@ -7,7 +7,7 @@ import HeaderSocial from './HeaderSocial'
 const header = (props) => {
   const idiom = props.idiom
   return (
-    <header id='header'>
+    <header id='header'> 
       <div className="container header__container">
         <h5>{idiom?'Hi, My Name Is...':'Hola, Mi Nombre Es...'}</h5>
         <h1>Pablo Torres</h1>
