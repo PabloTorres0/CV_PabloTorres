@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/CV_PabloTorres/static/css/main.29aa026f.css",
-    "main.js": "/CV_PabloTorres/static/js/main.facc3f2e.js",
+    "main.js": "/CV_PabloTorres/static/js/main.8791d5ab.js",
     "static/js/845.50b21c9c.chunk.js": "/CV_PabloTorres/static/js/845.50b21c9c.chunk.js",
     "static/media/pablo5.png": "/CV_PabloTorres/static/media/pablo5.4c860f08b5ff72a3bca3.png",
-    "static/media/pablo9.png": "/CV_PabloTorres/static/media/pablo9.fbcbc0a447597a35c1ea.png",
+    "static/media/pablo9.png": "/CV_PabloTorres/static/media/pablo9.1d5df333e64d786f054b.png",
     "static/media/CV_Pablo_Javier_Torres_Martinez_español.pdf": "/CV_PabloTorres/static/media/CV_Pablo_Javier_Torres_Martinez_español.ee590ee328d1a94e341d.pdf",
     "static/media/CV_Pablo_Javier_Torres_Martinez_english.pdf": "/CV_PabloTorres/static/media/CV_Pablo_Javier_Torres_Martinez_english.8d943e18833339c951ee.pdf",
     "static/media/tr2.mp3": "/CV_PabloTorres/static/media/tr2.792b11e159c789734813.mp3",
@@ -13,11 +13,11 @@
     "static/media/laser.mp3": "/CV_PabloTorres/static/media/laser.d2970a9137f1f33641f9.mp3",
     "index.html": "/CV_PabloTorres/index.html",
     "main.29aa026f.css.map": "/CV_PabloTorres/static/css/main.29aa026f.css.map",
-    "main.facc3f2e.js.map": "/CV_PabloTorres/static/js/main.facc3f2e.js.map",
+    "main.8791d5ab.js.map": "/CV_PabloTorres/static/js/main.8791d5ab.js.map",
     "845.50b21c9c.chunk.js.map": "/CV_PabloTorres/static/js/845.50b21c9c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.29aa026f.css",
-    "static/js/main.facc3f2e.js"
+    "static/js/main.8791d5ab.js"
   ]
 }
