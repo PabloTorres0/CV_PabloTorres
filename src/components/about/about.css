@@ -5,7 +5,7 @@
 }
 
 .about__me{
-    width:15rem;
+    width:52%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
     background: linear-gradient(
@@ -91,9 +91,14 @@
     }
     
     .about__me{
-        width: 50%;
+        width: 12.5rem;
         margin: 2rem auto 4rem;
 
+    }
+    .about__me-image{
+        height: 25rem;
+        width: 12.5rem;
+        border-radius: 1.5rem;
     }
 }
 
@@ -105,5 +110,12 @@
         grid-template-columns: 1fr ;
         gap: .5rem;
     }
-
+    .about__me-image{
+        height: 20rem;
+        width: 10rem;
+        border-radius: 1.5rem;
+    }
+    .about__me{
+        width:10rem;   
+    }
       }
